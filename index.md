@@ -1,4 +1,3 @@
-![Image]("https://github.com/myeo1/nusmoney/blob/main/logo.PNG")
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
     <title></title>
   </head>
+  ![Image]("logo.PNG")
   <body>
     <H1>NUS Money App</H1>
     
