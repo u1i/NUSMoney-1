@@ -6,7 +6,7 @@
     <script src="UpdateParent.js"></script>
     <script src="UpdateTransaction.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>NUS Money</title>
+    <title></title>
   </head>
   <body>
     <img src="https://github.com/myeo1/nusmoney/blob/main/logo.PNG">
