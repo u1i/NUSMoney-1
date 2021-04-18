@@ -10,7 +10,7 @@
   </head>
   <body>
     <img src="https://github.com/myeo1/nusmoney/blob/main/logo.PNG">
-    <H1> NUS Money App</H1>
+    <H1></H1>
     
 
     <div class="container">
