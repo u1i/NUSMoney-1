@@ -1,3 +1,4 @@
+![Image]("https://github.com/myeo1/nusmoney/blob/main/logo.PNG")
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,7 +10,6 @@
     <title></title>
   </head>
   <body>
-    <img src="https://github.com/myeo1/nusmoney/blob/main/logo.PNG">
     <H1>NUS Money App</H1>
     
 
