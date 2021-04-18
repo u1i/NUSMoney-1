@@ -10,7 +10,7 @@
   </head>
   <body>
     <img src="https://github.com/myeo1/nusmoney/blob/main/logo.PNG">
-    <H1></H1>
+    <H1>NUS Money App</H1>
     
 
     <div class="container">
@@ -22,10 +22,6 @@
           <h4>Your Wallet Balance</h4>
           <input type=number id="balance" class="money plus">
         </div>
-        <!-- <div>
-          <h4>Expense</h4>
-          <p id="loan" class="money minus">-$0.00</p>
-        </div> -->
       </div>
  
       <h3>Parent Details</h3>
