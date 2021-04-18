@@ -1,14 +1,14 @@
+![](./logo.PNG)
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="UpdateParent.js"></script>
-    <script src="UpdateTransaction.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <script src="./UpdateParent.js"></script>
+    <script src="./UpdateTransaction.js"></script>
+    <link rel="stylesheet" href="./style.css" />
     <title></title>
   </head>
-  ![Image]("logo.PNG")
   <body>
     <H1>NUS Money App</H1>
     
