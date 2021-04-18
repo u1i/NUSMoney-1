@@ -1,4 +1,5 @@
 function show_parent() {
+  alert("test");
   var requestOptions = {
     method: "GET",
     redirect: "follow",
