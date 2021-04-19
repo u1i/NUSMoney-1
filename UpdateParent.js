@@ -28,7 +28,7 @@ function show_parent() {
 }
 
 function list_parent() {
-<!--  var requestOptions = {
+/*  var requestOptions = {
     method: "GET",
     redirect: "follow",
   };
@@ -42,27 +42,21 @@ function list_parent() {
           '<option value="' + `${item.user_name}` + '">' + `${item.user_name}` + '</option>';
       });
     })
-    .catch((error) => console.log("error", error)); -->
+    .catch((error) => console.log("error", error)); */
     
-    
-  const Parent = [
-     { id: 1, user_name: 'Flora', email: 'flora@gmail.com', mobile: 91212121, fb_id: '_flora', child_name: 'John', age: 9, currency: 'SGD', wallet_balance: 100, rewards_points: 10 },
-     { id: 2, user_name: 'Mikhil', email: 'mikhil@gmail.com', mobile: 91212121, fb_id: '_mikhil', child_name: 'Mary', age: 11, currency: 'MYR', wallet_balance: 50, rewards_points: 20 }
-    ];
-    <!--     { id: 3, customername: 'Mikhil', bank: 'DBS', deposit: 3000, loan: 2000 },
-     { id: 4, customername: 'Sashil', bank: 'UOB', deposit: 6000, loan: 1000 },
-     { id: 5, customername: 'Jack', bank: 'UOB', deposit: 6000, loan: 8000 }
-    ];
-    
-  
-  const Transaction = [
-     { id: 1, customername: 'Flora', bank: 'DBS', deposit: 3000, loan: 2000 },
-     { id: 2, customername: 'Flora', bank: 'OCBC', deposit: 4000, loan: 2000 },
-     { id: 3, customername: 'Mikhil', bank: 'DBS', deposit: 3000, loan: 2000 },
-     { id: 4, customername: 'Sashil', bank: 'UOB', deposit: 6000, loan: 1000 },
-     { id: 5, customername: 'Jack', bank: 'UOB', deposit: 6000, loan: 8000 }
-
-    ]; -->
+  // Test data
+      const Parent = [
+         { id: 1, user_name: 'Flora', email: 'flora@gmail.com', mobile: 91212121, fb_id: '_flora', child_name: 'John', age: 9, currency: 'SGD', wallet_balance: 100, rewards_points: 10 },
+         { id: 2, user_name: 'Mikhil', email: 'mikhil@gmail.com', mobile: 92323232, fb_id: '_mikhil', child_name: 'Mary', age: 11, currency: 'MYR', wallet_balance: 50, rewards_points: 20 },
+         { id: 3, user_name: 'Sashil', email: 'sashil@gmail.com', mobile: 93434343, fb_id: '_sashil', child_name: 'Paul', age: 8, currency: 'SGD', wallet_balance: 200, rewards_points: 30 },
+         { id: 4, user_name: 'Jack', email: 'jack@gmail.com', mobile: 9454545, fb_id: '_jack', child_name: 'Ann', age: 7, currency: 'SGD', wallet_balance: 150, rewards_points: 40 }
+      ];
+      var element = document.getElementById("select");
+      element.innerHTML = '';
+      Parent.forEach(function (item) {
+        element.innerHTML = element.innerHTML +
+          '<option value="' + `${item.user_name}` + '">' + `${item.user_name}` + '</option>';
+      });
     
     document.getElementById("id").value = "";
     document.getElementById("user_name").value = "";
