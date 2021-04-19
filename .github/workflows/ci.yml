@@ -26,7 +26,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: CI script
         run: |
-          git checkout --orphan nusmoneypage
+          git checkout --orphan main
           git reset
           git add (OUT_DIR}/* -f
           git mv (OUT_DIR}/* ./ -k
