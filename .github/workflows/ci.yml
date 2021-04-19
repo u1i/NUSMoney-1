@@ -30,6 +30,7 @@ jobs:
           git config --local user.name "myeo1"
           git checkout --orphan page
           git reset
+          git add .
           git commit -m "Update version"
       - uses: ad-m/github-push-action@master
         with:
