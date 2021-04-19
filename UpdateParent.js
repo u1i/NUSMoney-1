@@ -1,5 +1,5 @@
 function show_parent() {
-  var requestOptions = {
+<!--  var requestOptions = {
     method: "GET",
     redirect: "follow",
   };
@@ -24,11 +24,11 @@ function show_parent() {
         }
       });
     })
-    .catch((error) => console.log("error", error));
+    .catch((error) => console.log("error", error)); -->
 }
 
 function list_parent() {
-  var requestOptions = {
+<!--  var requestOptions = {
     method: "GET",
     redirect: "follow",
   };
@@ -42,7 +42,28 @@ function list_parent() {
           '<option value="' + `${item.user_name}` + '">' + `${item.user_name}` + '</option>';
       });
     })
-    .catch((error) => console.log("error", error));
+    .catch((error) => console.log("error", error)); -->
+    
+    
+  const Parent = [
+     { id: 1, user_name: 'Flora', email: 'flora@gmail.com', mobile: 91212121, fb_id: '_flora', child_name: 'John', age: 9, currency: 'SGD', wallet_balance: 100, rewards_points: 10 },
+     { id: 2, user_name: 'Mikhil', email: 'mikhil@gmail.com', mobile: 91212121, fb_id: '_mikhil', child_name: 'Mary', age: 11, currency: 'MYR', wallet_balance: 50, rewards_points: 20 }
+    ];
+    <!--     { id: 3, customername: 'Mikhil', bank: 'DBS', deposit: 3000, loan: 2000 },
+     { id: 4, customername: 'Sashil', bank: 'UOB', deposit: 6000, loan: 1000 },
+     { id: 5, customername: 'Jack', bank: 'UOB', deposit: 6000, loan: 8000 }
+    ];
+    
+  
+  const Transaction = [
+     { id: 1, customername: 'Flora', bank: 'DBS', deposit: 3000, loan: 2000 },
+     { id: 2, customername: 'Flora', bank: 'OCBC', deposit: 4000, loan: 2000 },
+     { id: 3, customername: 'Mikhil', bank: 'DBS', deposit: 3000, loan: 2000 },
+     { id: 4, customername: 'Sashil', bank: 'UOB', deposit: 6000, loan: 1000 },
+     { id: 5, customername: 'Jack', bank: 'UOB', deposit: 6000, loan: 8000 }
+
+    ]; -->
+    
     document.getElementById("id").value = "";
     document.getElementById("user_name").value = "";
     document.getElementById("email").value = "";
