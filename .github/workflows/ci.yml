@@ -31,5 +31,10 @@ jobs:
           git add (OUT_DIR}/* -f
           git mv (OUT_DIR}/* ./ -k
           git commit -m "Update version"
+      - uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
+          branch: main
           
           
