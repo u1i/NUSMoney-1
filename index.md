@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="./UpdateParent.js"></script>
-    <script src="./UpdateTransaction.js"></script>
+<!--    <script src="./UpdateTransaction.js"></script> -->
     <link rel="stylesheet" href="./style.css" />
     <title></title>
   </head>
   <body>
     <H1>NUS Money Application</H1>
     
-
     <div class="container">
-      <!-- <h4>Your Balance</h4>
-      <h1 id="balance">$0.00</h1> -->
-
       <div class="inc-exp-container">
         <div>
           <h4>Your Wallet Balance</h4>
@@ -68,13 +64,11 @@
         </form>
       </div>
 
-      <h3>Transaction Details</h3>
+<!--      <h3>Transaction Details</h3>
       <ul id="list" class="list">
       </ul>
       <div class="mypanel">
         <form>
-            <!-- <label>Date:</label>
-            <input type=date id="datetime"><br> -->
             <label>Transaction ID:</label>
             <input type=number id="transaction id"><br>
             <label>Transaction Type:</label>
@@ -94,6 +88,6 @@
       </div> 
       <ul id="list_transaction" class="list">
       </ul>
-    </div>
+    </div> -->
   </body>
 </html>
