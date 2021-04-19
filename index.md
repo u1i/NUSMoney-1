@@ -63,8 +63,6 @@
             <input type=number id="rewards_points"><br>
         </form>
       </div>
-  </body>
-</html>
 
 <!--      <h3>Transaction Details</h3>
       <ul id="list" class="list">
@@ -89,9 +87,9 @@
           <button class = "btn" onclick="delete_transaction()">Delete</button>
       </div> 
       <ul id="list_transaction" class="list">
-      </ul>
+      </ul> -->
     </div>
   </body>
-</html> -->
+</html>
     
 
