@@ -38,7 +38,7 @@
         * [Action](https://github.com/myeo1/NUSMoney/actions)
 * **Deploy**
     * GitHub Page
-        * [NUS Money Page](http://127.0.0.1:5500/NUSMoney-develop/index.html)
+        * [NUS Money Page](https://myeo1.github.io/NUSMoney/)
 
 ```
 
