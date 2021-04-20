@@ -1,27 +1,28 @@
-## NUS FinTechSG DevOps Show And Tell
+![#FE4C0](## NUS FinTechSG DevOps Show And Tell)
 
-# NUS Money Application
-## The NUS Money Application front end is developed in HTML/CSS/JS and uploaded from VSCode to the GitHub Depository.
-### Back end is excluded for demo purpose
+![Image](logo.png)
+![#FE4C0](# NUS Money Application)
+![#FE4C0](## The NUS Money Application front end is developed in HTML/CSS/JS and uploaded from VSCode to the GitHub Depository.)
+![#FE4C0](### Back end is excluded for demo purpose)
 
-**1. Purpose**
-**2. Design**
-**3. Code**
-**4. Build**
-**5. Test**
+1. ![#FE4C0](**Purpose**)
+2. ![#FE4C0](**Design**) 
+3. ![#FE4C0](**Code**)
+4. ![#FE4C0](**Build**)   
+5. ![#FE4C0](**Test**)   
+Change application title and push to develop branch
+Push action will activate CI workflow actions
+Run tasks:
+          `git checkout --orphan page
+          git reset
+          git add .
+          git commit -m "Update version"`
+
+Check workflow action status
+[Link](https://github.com/myeo1/NUSMoney/actions)
 **6. Deploy**
+NUS Money Page
+[Link](http://127.0.0.1:5500/NUSMoney-develop/index.html)
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/myeo1/nusmoney/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
