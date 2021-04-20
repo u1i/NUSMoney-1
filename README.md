@@ -1,6 +1,6 @@
 ![](./logo.PNG)
 # NUS Money Application
-## The NUS Money Application front end is developed in HTML/CSS/JS and uploaded from VSCode to the GitHub Depository. Back end is excluded for demo purpose.
+## The NUS Money Application front end is developed in HTML/CSS/JS and uploaded from VSCode to the GitHub Depository. Back end is excluded from Demo.
 
 * **Purpose**
    * NUS Money provides parents with a children expense tracking service through a mobile application platform.
@@ -12,12 +12,12 @@
       * ![](./NUSMoneyERD.PNG)
    * Code Files
       * index.html 
-         Application GUI design
+         * Application GUI design
             * Selection Buttons - List Parent / Clear, Select, Update
       * style.css
-         GUI style formatting
+          * GUI style formatting
       * UpdateParent.js
-         Parent functions 
+          * Parent functions 
             * function list_parent() - retrieve list of parent names for dropdown selection
             * function show_parent() - retrieve selected parent details to update fields
             * function update_parent() - update parent record with data from amended field
