@@ -1,6 +1,7 @@
 ![](./logo.PNG)
 # NUS Money Application
-## The NUS Money Application front end is developed in HTML/CSS/JS and uploaded from VSCode to the GitHub Depository. Back end is excluded from Demo.
+## The NUS Money Application front end is developed in HTML/CSS/JS and uploaded from VSCode to the GitHub Depository. 
+## Back end is built in Javascipt using NodeJS.
 
 * **Purpose**
    * NUS Money provides parents with a children expense tracking service through a mobile application platform.
@@ -23,9 +24,15 @@
             * function update_parent() - update parent record with data from amended field
 * **Build** 
    * Back End
-      * Build and run main.js to execute Node JS API function scripts in local host
+      * Build and run main.js to execute NodeJS API function scripts in local host.
+        * GET /parent
+        * UPDATE /parent/udpdate
+        * GET /transaction/by_wallet
+        * POST /transaction/addnew
+        * DELETE /transaction/delete
+        
    * Front End
-      * Run Index.html to access API functions through local host port
+      * Run Index.html and access API functions through local host port.
 * **Test** 
     * Change application title and push to develop branch
     * Push action will activate CI workflow actions
