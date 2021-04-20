@@ -1,25 +1,15 @@
-## Welcome to GitHub Pages
+## NUS FinTechSG DevOps Show And Tell
 
-You can use the [editor on GitHub](https://github.com/myeo1/nusmoney/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# NUS Money Application
+## The NUS Money Application front end is developed in HTML/CSS/JS and uploaded from VSCode to the GitHub Depository.
+### Back end is excluded for demo purpose
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+**1. Purpose**
+**2. Design**
+**3. Code**
+**4. Build**
+**5. Test**
+**6. Deploy**
 
 **Bold** and _Italic_ and `Code` text
 
