@@ -10,7 +10,7 @@
     <title></title>
   </head>
   <body>
-    <H1>NUS Money Application</H1>
+    <H1>NUS Money Application TEST</H1>
     
     <div class="container">
       <div class="inc-exp-container">
